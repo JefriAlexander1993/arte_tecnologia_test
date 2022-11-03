@@ -11,6 +11,7 @@ si no buscar el archivo con nombre .env.example y hacerle una copia y ponerle el
 5. Abrir la consola del sistema y ejecutar el siguiente comando "composer install".
 6. Abrir la consola del sistema y ejecutar el siguiente comando "npm i".
 7. Abrir la consola del sistema y ejecutar el siguiente comando "php artisan key:generate".
-8. php artisan migrate --seed
-9. usuario de prueba usuario: admin@test.com, contraseña: 123456789
+8. Ejecutar por consol php artisan migrate --seed
+9. Ejecutar por consola php artisan serve e ingresar al navegador con la url dada
+10. usuario de prueba usuario: admin@test.com, contraseña: 123456789
 
