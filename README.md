@@ -1,4 +1,4 @@
-PASO A PASO
+<h3><b>PASO A PASO</b><h3>
 
 <b>REQUERIMIENTOS.</b>
 Contar con npm, php "^7.2.5|^8.0", composer
