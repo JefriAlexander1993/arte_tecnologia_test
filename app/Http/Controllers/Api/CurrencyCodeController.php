@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api;
 
 use App\CurrencyCode;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 class CurrencyCodeController extends Controller
 {
@@ -12,11 +11,14 @@ class CurrencyCodeController extends Controller
     public function __construct(){
         $this->middleware('jwtauth');
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    /*
+    |-------------------------------------------------------------------------------
+    | getCurrecyCodes
+    |-------------------------------------------------------------------------------
+    | URL:            /api/v1/admin
+    | Method:         Post
+    | Description:    getCurrecyCodes
+    */
     public function index()
     {
         $currenciesCode = CurrencyCode::all();

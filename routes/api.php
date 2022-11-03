@@ -88,12 +88,12 @@ Route::group([
     Route::post('/admin', 'AdminController@index');
     /*
     |-------------------------------------------------------------------------------
-    | fileExport
+    | getCurrecyCodes
     |-------------------------------------------------------------------------------
-    | URL:            /api/v1/fileExport
-    | Controller:     Api\AuthController@fileExport
+    | URL:            /api/v1/getCurrecyCodes
+    | Controller:     Api\AuthController@getCurrecyCodes
     | Method:         GET
-    | Description:    Exportar un excel de personas publicas.
+    | Description:    Retorna todos los codigos de moneda.
     */
     Route::post('/getCurrecyCodes', 'CurrencyCodeController@index');
 });
